@@ -57,7 +57,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+        <a href="#about-the-project">Sobre o Projeto</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -85,7 +85,39 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+O projeto proposto visa desenvolver um sistema de controle de estoque e exportação de cogumelos, utilizando a linguagem de programação Java e o framework Spring para facilitar o desenvolvimento e gerenciamento do aplicativo.
+
+Funcionalidades Principais:
+
+Controle de Estoque:
+
+O sistema permite o cadastro de diferentes tipos de cogumelos, associando informações como nome, variedade, quantidade em estoque, data de entrada, entre outros.
+É possível visualizar, atualizar e excluir informações sobre os produtos armazenados no estoque.
+Exportação de Cogumelos:
+
+Implementa um módulo de exportação para gerenciar o envio de cogumelos para outros mercados ou clientes.
+Registra dados relevantes para a exportação, como destino, quantidade a ser exportada, e documentos fiscais associados.
+Operações CRUD (Create, Read, Update, Delete):
+
+Utiliza operações CRUD para garantir a manipulação eficiente dos dados do estoque e da exportação de cogumelos.
+Segurança:
+
+Implementa mecanismos de autenticação e autorização para garantir que apenas usuários autorizados possam acessar e modificar as informações do sistema.
+Interface Gráfica Amigável:
+
+Desenvolve uma interface de usuário intuitiva para facilitar a interação com o sistema, utilizando tecnologias modernas para a construção de interfaces web.
+Tecnologias Utilizadas:
+
+O projeto emprega o framework Spring para a construção de uma aplicação Java robusta e modular.
+Utiliza um banco de dados para persistência dos dados do estoque e exportação, integrando o sistema com tecnologias de persistência suportadas pelo Spring, como o Spring Data JPA.
+Implementa as operações CRUD por meio de endpoints RESTful.
+Esse projeto tem como objetivo oferecer uma solução eficiente e escalável para empresas envolvidas na produção e exportação de cogumelos, proporcionando uma gestão simplificada do estoque e do processo de exportação. O uso do Spring e do CRUD facilita o desenvolvimento, manutenção e expansão do sistema ao longo do tempo.
+
+
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
