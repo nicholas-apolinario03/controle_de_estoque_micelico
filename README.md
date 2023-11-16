@@ -83,8 +83,6 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 O projeto proposto visa desenvolver um sistema de controle de estoque e exportação de cogumelos, utilizando a linguagem de programação Java e o framework Spring para facilitar o desenvolvimento e gerenciamento do aplicativo.
 
 Funcionalidades Principais:
