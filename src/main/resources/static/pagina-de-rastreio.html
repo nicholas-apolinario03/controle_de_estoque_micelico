@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Cogumelo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adicionar.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="/adicionar-cogumelos.html">Adicionar</a>
+            <a href="excluir-cogumelos.html">Excluir</a>
+            <a href="atualizar-cogumelos.html">Atualizar</a>
+        </div>
+
+    </div>
+    <div class="pedido">
+        <center>
+            <h1>Status do Pedido</h1>
+        </center>
+    </div>
+    <div id="mapa"></div>
+
+    <script>
+        // Função para inicializar o mapa
+        function inicializarMapa() {
+            // Tentar obter a localização do usuário
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    // Coordenadas da localização do usuário
+                    var userCoords = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+
+                    // Opções do mapa
+                    var opcoesDoMapa = {
+                        zoom: 14,
+                        center: userCoords // Centro do mapa nas coordenadas do usuário
+                    };
+
+                    // Criar o mapa e adicioná-lo ao contêiner com o ID 'mapa'
+                    var mapa = new google.maps.Map(document.getElementById('mapa'), opcoesDoMapa);
+
+                    // Adicionar marcador na localização do usuário
+                    var marcador = new google.maps.Marker({
+                        position: userCoords,
+                        map: mapa,
+                        title: 'Sua Localização'
+                    });
+                });
+            } else {
+                // Caso a geolocalização não seja suportada pelo navegador
+                console.error('Geolocalização não suportada pelo navegador.');
+            }
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA02-lOFkjp-A-DYfjyRqGEcPgrbMAT9-g&callback=inicializarMapa"></script>
+</body>
