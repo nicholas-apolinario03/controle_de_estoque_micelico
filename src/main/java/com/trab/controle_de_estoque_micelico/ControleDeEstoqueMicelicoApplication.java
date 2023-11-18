@@ -34,8 +34,10 @@ class Cogumelo {
     private int quantidade;
 	private double preco;
     private LocalDate dataValidade;
+    private String cep_final;
+    private String cep_atual;
 
-    public Cogumelo(String nome, int quantidade, double preco, LocalDate dataValidade) {
+    public Cogumelo(String nome, int quantidade, double preco, LocalDate dataValidade, String cep_final, String cep_atual) {
         try {
             if (nome == null || nome.trim().isEmpty()) {
                 throw new IllegalArgumentException("O nome do cogumelo não pode ser nulo ou vazio.");
