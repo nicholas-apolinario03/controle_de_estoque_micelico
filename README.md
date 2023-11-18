@@ -207,7 +207,7 @@ mvn spring-boot:run
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Uso
 
 Você pode navegar pelas páginas para fazer o controle do estoque de seus cogumelos, bem como verificar o status da entrega e observar em tempo real no mapa interativo, cortesia do Google Maps!
 
