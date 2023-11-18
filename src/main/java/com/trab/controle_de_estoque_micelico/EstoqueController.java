@@ -3,6 +3,7 @@ package  com.trab.controle_de_estoque_micelico;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/estoque") //Caminho padrão
@@ -33,29 +34,30 @@ public class EstoqueController {
         }
     }
 
-    @GetMapping("/buscarCogumelo/{nome}")
-    public Cogumelo buscarCogumelo(@PathVariable String nome) {
+    @GetMapping("/buscarCogumelo/{id}")
+    public Cogumelo buscarCogumelo(@PathVariable Long id) {
         try {
-            return estoqueService.buscarCogumelo(nome);
+            Optional<Cogumelo> optionalCogumelo = estoqueService.buscarCogumelo(id);
+            return optionalCogumelo.orElse(null);
         } catch (Exception e) {
             System.err.println("Erro ao buscar cogumelo: " + e.getMessage());
             return null;
         }
     }
 
-    @PutMapping("/atualizarQuantidade/{nome}/{novaQuantidade}")
-    public void atualizarQuantidade(@PathVariable String nome, @PathVariable int novaQuantidade) {
+    @PutMapping("/atualizarQuantidade/{id}/{novaQuantidade}")
+    public void atualizarQuantidade(@PathVariable Long id, @PathVariable int novaQuantidade) {
         try {
-            estoqueService.atualizarQuantidade(nome, novaQuantidade);
+            estoqueService.atualizarQuantidade(id, novaQuantidade);
         } catch (Exception e) {
             System.err.println("Erro ao atualizar quantidade: " + e.getMessage());
         }
     }
 
-    @DeleteMapping("/excluirCogumelo/{nome}")
-    public void excluirCogumelo(@PathVariable String nome) {
+    @DeleteMapping("/excluirCogumelo/{id}")
+    public void excluirCogumelo(@PathVariable Long id) {
         try {
-            estoqueService.excluirCogumelo(nome);
+            estoqueService.excluirCogumelo(id);
         } catch (Exception e) {
             System.err.println("Erro ao excluir cogumelo: " + e.getMessage());
         }

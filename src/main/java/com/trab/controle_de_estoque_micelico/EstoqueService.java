@@ -1,9 +1,9 @@
 package  com.trab.controle_de_estoque_micelico; 
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import com.trab.controle_de_estoque_micelico.repository.CogumeloRepository;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -11,7 +11,6 @@ import java.util.Optional;
 public class EstoqueService {
     private final CogumeloRepository cogumeloRepository;
 
-    @Autowired
     public EstoqueService(CogumeloRepository cogumeloRepository) {
         this.cogumeloRepository = cogumeloRepository;
     }
