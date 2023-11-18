@@ -1,11 +1,21 @@
-package com.avn2.estoque_cogumelos;
+package com.trab.controle_de_estoque_micelico;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
 
 @SpringBootApplication //Service e controller em arquivos separados
+@EnableJpaRepositories(basePackages = "com.avn2.estoque_cogumelos.repository")
 public class EstoqueCogumelosApplication {
 
 	public static void main(String[] args) {
@@ -14,7 +24,12 @@ public class EstoqueCogumelosApplication {
 
 }
 
+@Entity
 class Cogumelo {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id; //Privado por questões de segurança
+
     private String nome;
     private int quantidade;
 	private double preco;
