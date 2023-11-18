@@ -23,58 +23,40 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- LINKS -->
+[contributors-shield]: https://img.shields.io/github/contributors/nicholas-apolinario03/controle_de_estoque_micelico.svg?style=for-the-badge
+[contributors-url]: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nicholas-apolinario03/controle_de_estoque_micelico.svg?style=for-the-badge
+[forks-url]: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico/network/members
+[stars-shield]: https://img.shields.io/github/stars/nicholas-apolinario03/controle_de_estoque_micelico.svg?style=for-the-badge
+[stars-url]: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nicholas-apolinario03/controle_de_estoque_micelico.svg?style=for-the-badge
+[issues-url]: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico/issues
+[license-shield]: https://img.shields.io/github/license/nicholas-apolinario03/controle_de_estoque_micelico.svg?style=for-the-badge
+[license-url]: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-Profile-blue.svg?style=for-the-badge&logo=linkedin
 
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
-
-
+<h3 align="center">Controle De Estoque Micélico</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabela de conteúdo</summary>
   <ol>
     <li>
         <a href="#about-the-project">Sobre o Projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Ferramentas Utilizadas</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Começando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Requisitos Iniciais</a></li>
+        <li><a href="#installation">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#usage">Uso</a></li>
+    <li><a href="#acknowledgments">Agradecimentos</a></li>
   </ol>
 </details>
 
@@ -117,161 +99,151 @@ Esse projeto tem como objetivo oferecer uma solução eficiente e escalável par
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>>
 
 
 
-### Built With
+### Feito com:
+[![VSCode][VSCode-shield]][VSCode-url]
+[![Java][Java-shield]][Java-url]
+[![HTML][HTML-shield]][HTML-url]
+[![CSS][CSS-shield]][CSS-url]
+[![JavaScript][JavaScript-shield]][JavaScript-url]
+[![Google][Google-shield]][Google-url]
+[![Spring][Spring-shield]][Spring-url]
+[![Maven][Maven-shield]][Maven-url]
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+<!-- LINKS -->
+[VSCode-shield]: https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[VSCode-url]: link_para_o_vscode
+[Java-shield]: https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white
+[Java-url]: link_para_o_java
+[HTML-shield]: https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: link_para_o_html
+[CSS-shield]: https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: link_para_o_css
+[JavaScript-shield]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: link_para_o_javascript
+[Google-shield]: https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white
+[Google-url]: link_para_o_google
+[Spring-shield]: https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white
+[Spring-url]: link_para_o_spring
+[Maven-shield]: https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white
+[Maven-url]: link_para_o_maven
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Spring Boot:
+
+O Spring Boot é uma extensão do Spring Framework que simplifica o desenvolvimento de aplicativos Spring, fornecendo configurações padrão e facilitando a inicialização de projetos. Ele é frequentemente usado para criar rapidamente aplicativos CRUD.
+Spring MVC:
+
+O Spring MVC (Model-View-Controller) é um módulo do Spring Framework para desenvolvimento de aplicativos da web. Ele fornece um modelo de programação baseado em MVC para criar controladores que gerenciam solicitações HTTP, sendo uma escolha comum para desenvolvimento de CRUD em aplicações da web.
+Spring Data JPA:
+
+O Spring Data JPA simplifica o acesso a dados em aplicativos baseados em Spring. Ele fornece uma implementação baseada em JPA (Java Persistence API) para facilitar a persistência de dados em um banco de dados relacional. O Spring Data JPA é comumente usado para operações CRUD em bancos de dados.
+Thymeleaf:
+
+O Thymeleaf é um mecanismo de template que integra-se bem com o Spring Framework e é frequentemente usado em aplicativos da web Spring. Ele permite a criação de páginas HTML de forma mais fácil e expressiva, integrando-se bem com as operações CRUD.
+Spring Boot Data REST:
+
+O Spring Boot Data REST é um projeto que simplifica a criação de APIs RESTful para operações CRUD em entidades JPA. Ele gera automaticamente endpoints RESTful para as entidades, facilitando a criação de serviços REST sem a necessidade de escrever muito código.
+
+Em nosso projeto, adotamos a linguagem Java como o núcleo do backend, abrangendo desde a criação de classes até a integração eficiente com o banco de dados. Essa escolha proporciona uma base sólida e robusta para a lógica de negócios e o processamento de dados.
+
+No âmbito do frontend, dedicamo-nos à criação das páginas web, utilizando uma combinação harmoniosa de HTML, CSS e JavaScript. Essas tecnologias modernas e interativas são essenciais para criar uma experiência de usuário envolvente e intuitiva.
+
+Essa abordagem integral, combinando a potência do Java no backend com a flexibilidade e dinamismo do HTML, CSS e JavaScript no frontend, permite-nos oferecer uma solução coesa e eficaz para as necessidades do projeto. A coesão entre as camadas backend e frontend contribui para um sistema fluido e responsivo, proporcionando aos usuários uma experiência consistente e agradável.
+
+Estamos comprometidos em manter um equilíbrio entre a robustez e a estética, garantindo que cada aspecto do projeto contribua para a criação de uma aplicação de alta qualidade, funcional e visualmente atraente.
+
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Requisitos Iniciais
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Como o servidor é baseado na linguagem Java, é necessário instala-la seguindo o link:
 
-### Prerequisites
+https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+Além disso, é nescessário baixar e configurar o framework Spring Boot em seu ambiente, segue um tutorial presente na documentação do framework: 
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html
+
+Verifique se você tem o Maven instalado:
+
+```sh
+  mvn -v
+  Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+  Maven home: usr/Users/developer/tools/maven/3.8.5
+  Java version: 17.0.4.1, vendor: BellSoft, runtime: /Users/developer/sdkman/candidates/java/17.0.4.1-librca
   ```
+Caso não possuir, entre no seguinte link:
 
-### Installation
+https://www.javatpoint.com/how-to-install-maven#:~:text=How%20to%20install%20Maven%20on%20windows%201%201%29,path%20of%20maven.%20...%204%204%29Verify%20maven%20
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Uma vez que você tenha o repositório clonado, e todas as dependências em dia, execute o seguinte comando:
+
+```sh
+mvn spring-boot:run
+```
+
+### Instalação
+
+1. Clone o repositório
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   git clone https://github.com/nicholas-apolinario03/controle_de_estoque_micelico.git
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Execute as etapas fornecidas acima
+
+3. Uma vez que já tenha as dependências execute:
+   ```sh
+   mvn spring-boot:run
+   ```
+
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Você pode navegar pelas páginas para fazer o controle do estoque de seus cogumelos, bem como verificar o status da entrega e observar em tempo real no mapa interativo, cortesia do Google Maps!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuindo
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer é altamente apreciada.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Se você tiver uma sugestão que tornaria isso melhor, por favor, faça um fork do repositório e crie um pull request. Você também pode simplesmente abrir uma issue com a tag "melhoria".
+Não se esqueça de dar uma estrela para o projeto! Muito obrigado!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Faça um Fork do Projeto
+Crie sua Branch de Recurso (git checkout -b feature/RecursoIncrivel)
+Faça seus Commits (git commit -m 'Adicione algum RecursoIncrivel')
+Faça o Push para a Branch (git push origin feature/RecursoIncrivel)
+Abra um Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Contato
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Bruno Boscolo - bruno.boscolo2304@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Nicholas Apolinário - nicholas.apolinario@mail.usf.edu.br
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Link do projeto: https://github.com/nicholas-apolinario03/controle_de_estoque_micelico)
+
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Agradecimentos
 
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+* Agradeçemos ao professor de Programação Orientada a Objetos por proporcionar o desafio da construção deste servidor!
+<p align="right">(<a href="#readme-top">Ir ao topo</a>)</p>>
