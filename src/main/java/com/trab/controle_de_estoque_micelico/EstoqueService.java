@@ -1,40 +1,65 @@
-package  com.trab.controle_de_estoque_micelico; 
+package com.trab.controle_de_estoque_micelico;
 
 import org.springframework.stereotype.Service;
-
-import com.trab.controle_de_estoque_micelico.repository.CogumeloRepository;
-
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class EstoqueService {
-    private final CogumeloRepository cogumeloRepository;
-
-    public EstoqueService(CogumeloRepository cogumeloRepository) {
-        this.cogumeloRepository = cogumeloRepository;
-    }
+    private final List<Cogumelo> inventario = new ArrayList<>();
 
     public void adicionarCogumelo(Cogumelo cogumelo) {
-        cogumeloRepository.save(cogumelo);
+        try {
+            inventario.add(cogumelo);
+        } catch (Exception e) {
+            System.err.println("Erro ao adicionar cogumelo: " + e.getMessage());
+        }
     }
 
     public List<Cogumelo> exibirInventario() {
-        return cogumeloRepository.findAll();
+        try {
+            return inventario;
+        } catch (Exception e) {
+            System.err.println("Erro ao exibir inventário: " + e.getMessage());
+            return new ArrayList<>();
+        }
     }
 
-    public Optional<Cogumelo> buscarCogumelo(Long id) {
-        return cogumeloRepository.findById(id);
+    public Cogumelo buscarCogumelo(String nome) {
+        try {
+            for (Cogumelo cogumelo : inventario) {
+                if (cogumelo.getNome().equals(nome)) {
+                    return cogumelo;
+                }
+            }
+            return null;
+        } catch (Exception e) {
+            System.err.println("Erro ao buscar cogumelo: " + e.getMessage());
+            return null;
+        }
     }
 
-    public void atualizarQuantidade(Long id, int novaQuantidade) {
-        cogumeloRepository.findById(id).ifPresent(cogumelo -> {
-            cogumelo.setQuantidade(novaQuantidade);
-            cogumeloRepository.save(cogumelo);
-        });
+    public void atualizarQuantidade(String nome, int novaQuantidade, double novalatitude , double novalongitude) {
+        try {
+            Cogumelo cogumelo = buscarCogumelo(nome);
+            if (cogumelo != null) {
+                cogumelo.setQuantidade(novaQuantidade); 
+                cogumelo.setLatitude(novalatitude);
+                 cogumelo.setLongitude(novalongitude);
+            }
+        } catch (Exception e) {
+            System.err.println("Erro ao atualizar quantidade: " + e.getMessage());
+        }
     }
 
-    public void excluirCogumelo(Long id) {
-        cogumeloRepository.deleteById(id);
+    public void excluirCogumelo(String nome) {
+        try {
+            Cogumelo cogumelo = buscarCogumelo(nome);
+            if (cogumelo != null) {
+                inventario.remove(cogumelo);
+            }
+        } catch (Exception e) {
+            System.err.println("Erro ao excluir cogumelo: " + e.getMessage());
+        }
     }
 }

@@ -27,9 +27,11 @@
           
             <input type="number" id="quantidade" placeholder="Quantidade" name="quantidade" required/>
            
-            <input type="number" step="0.01" id="preco" placeholder="Preço" name="preco" required/>
-         
-            <input type="date" id="dataValidade" placeholder="Data de Validade" name="dataValidade" required/>
+            <input type="number" id="latitude" placeholder="latitude" name="quantidade" required/>
+
+            <input type="number" id="longitude" placeholder="longitude" name="quantidade" required/>
+    
+    
         
             <button type="button" onclick="atualizarCogumelo()">Atualizar Cogumelo</button>
             <a href="index.html" class="voltar">Voltar</a>
@@ -40,8 +42,8 @@
             var formData = {
                 nome: $('#nome').val(),
                 quantidade: $('#quantidade').val(),
-                preco: $('#preco').val(),
-                dataValidade: $('#dataValidade').val()
+                latitude: $('#latitude').val(),
+                longitude: $('#longitude').val()
             };
 
             $.ajax({
