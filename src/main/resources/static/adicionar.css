@@ -23,9 +23,9 @@
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid rgb(17, 17, 17);
     padding: 14px 10px;
     width: 240px;
     outline: none;
@@ -35,16 +35,16 @@
 }
 .box input[type = "text"]:focus, .box input[type = "number"]:focus, .box input[type = "date"]:focus, .texta:focus {
 width: 280px;
-border-color: #2ecc71;
+border-color: rgb(48, 48, 48);
 }
 .box button[type = "button"]{
     border: 0;
     background: none;
     display: block;
-    margin: 15px auto;
+    margin: 10px auto;
     margin-bottom: 10px;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 2px solid rgb(17, 17, 17);
     padding: 14px 40px;
     outline: none;
     color: rgb(5, 5, 5);
@@ -53,7 +53,7 @@ border-color: #2ecc71;
     cursor: pointer;
 }
 .box button[type = "button"]:hover {
-    background: #2ecc71;
+    background: rgb(17, 17, 17);
 }
 .box a{
     display: block;

@@ -78,6 +78,10 @@
                 })
                 .catch(error => console.error('Erro ao obter inventário:', error));
         });
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+
+        });
     </script>
 </body>
 

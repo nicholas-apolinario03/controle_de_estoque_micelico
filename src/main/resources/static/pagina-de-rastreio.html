@@ -99,6 +99,10 @@
                 console.error('Geolocalização não suportada pelo navegador.');
             }
         }
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+
+        });
     </script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA02-lOFkjp-A-DYfjyRqGEcPgrbMAT9-g&callback=inicializarMapa"></script>

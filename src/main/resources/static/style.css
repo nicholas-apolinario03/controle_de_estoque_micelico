@@ -16,7 +16,7 @@ body {
 
 .menu{
     position: absolute;
-    right: 55px;
+    left: 35%;
 }
 .menu a{
     color: #333;
@@ -82,4 +82,35 @@ table {
   display: inline-block;
   width: 50%;
   height: 34em;
+}
+@media (max-width: 700px) {
+  .navbar {
+      overflow: visible;
+  }
+
+  .menu {
+      width: 100%;
+      right: 0;
+      top: 80px;
+      background: #f1f1f1;
+      overflow: hidden;
+      max-height: 0;
+  }
+
+  .menu a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+
+  }
+
+  .btn {
+      display: block;
+      cursor: pointer;
+  }
+
+  .show {
+      max-height: 500px;
+  }
 }

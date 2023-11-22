@@ -33,12 +33,9 @@
 
         <input type="date" id="dataValidade" placeholder="Data de Validade" name="dataValidade" required/>
         
-        <input type="number" id="latitude" placeholder="latitude" name="quantidade" required/>
+        <input type="number" id="latitude" placeholder="latitude" name="quantidade" value = "-23.015048" required />
 
-        <input type="number" id="longitude" placeholder="longitude" name="quantidade" required/>
-
-
-        <br/>
+        <input type="number" id="longitude" placeholder="longitude" name="quantidade"  value = "-46.600212" required/>
 
         <button type="button" onclick="adicionarCogumelo()">Adicionar Cogumelo</button>
         <a href="index.html" class="voltar">Voltar</a>
@@ -57,19 +54,24 @@
 
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost:8080/api/estoque/adicionarCogumelo', // Remova o domínio para evitar problemas com CORS
+                url: 'http://localhost:8080/api/estoque/adicionarCogumelo', 
                 contentType: 'application/json',
                 data: JSON.stringify(formData),
                 success: function(response) {
+                    alert("Cogumelo cadastrado com sucesso!");
                     console.log(response);
-                    // Faça algo com a resposta, se necessário
+                   
                 },
                 error: function(error) {
                     console.error(error);
-                    // Lidar com erros, se necessário
+                    
                 }
             });
         }
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+
+        });
     </script>
      
 </body>

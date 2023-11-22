@@ -38,14 +38,18 @@
                 url: 'http://localhost:8080/api/estoque/excluirCogumelo/' + nomeCogumelo,
                 success: function(response) {
                     console.log(response);
-                    // Faça algo com a resposta, se necessário
+                    alert("Cogumelo excluido com sucesso!");
                 },
                 error: function(error) {
                     console.error(error);
-                    // Lidar com erros, se necessário
+                   
                 }
             });
         }
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+
+        });
     </script>
 </body>
 </html>

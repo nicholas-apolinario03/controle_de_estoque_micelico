@@ -17,7 +17,7 @@
         <div class="menu">
             <a href="index.html">Home</a>
             <a href="adicionar-cogumelos.html">Adicionar</a>
-            <a href="excluir.html">Excluir</a>
+            <a href="excluir-cogumelos.html">Excluir</a>
             <a href="atualizar-cogumelos.html">Atualizar</a>
         </div>
     </div>
@@ -53,14 +53,18 @@
                 data: JSON.stringify(formData),
                 success: function(response) {
                     console.log(response);
-                    // Faça algo com a resposta, se necessário
+                    alert("Cogumelo atualizado com sucesso!");
                 },
                 error: function(error) {
                     console.error(error);
-                    // Lidar com erros, se necessário
+                  
                 }
             });
         }
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+
+        });
     </script>
 </body>
 </html>
