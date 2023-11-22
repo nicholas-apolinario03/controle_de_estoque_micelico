@@ -43,6 +43,16 @@
 </div>
     <script>
         function adicionarCogumelo() {
+            const nome = $('#nome').val();
+            const quantidade= $('#quantidade').val();
+            const preco= $('#preco').val();
+            const dataValidade= $('#dataValidade').val();
+            const latitude= $('#latitude').val();
+            const longitude= $('#longitude').val();
+            
+           if ( nome == "" || quantidade == "0" || preco == "0" || dataValidade == "" || latitude == "" || longitude == ""){
+            alert("Um dos campos nao foi preenchido corretamente")
+           }else{
             var formData = {
                 nome: $('#nome').val(),
                 quantidade: $('#quantidade').val(),
@@ -51,7 +61,7 @@
                 latitude: $('#latitude').val(),
                 longitude: $('#longitude').val()
             };
-
+        }
             $.ajax({
                 type: 'POST',
                 url: 'http://localhost:8080/api/estoque/adicionarCogumelo', 
